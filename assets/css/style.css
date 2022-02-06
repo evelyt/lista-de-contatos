@@ -26,22 +26,23 @@ header h1{
 
 main{
     display: flex;
-    height: 87vh;
+    height: 88vh;
 }
 main section{
     width: 50%;
     padding: 100px 40px;
 }
-.scform{
+.secao_formulario{
     background-color: #162b7b;
 }
-.scform_form{
+.secao_formulario_form{
     display: flex;
     flex-direction: column;
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
     margin: 0 0 0 auto;
 }
-.scform_form input{
+.secao_formulario_form input{
     margin-bottom: 15px;
     height: 40px;
     border: none;
@@ -50,7 +51,7 @@ main section{
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
 }
-.scform_form button{
+.secao_formulario_form button{
     background-color: hsl(0deg 0% 100% / 90%);
     height: 30px;
     border: none;
@@ -62,29 +63,29 @@ main section{
     font-weight: 600;
 }
 
-.sc_listContacts{
+.secao_listaContatos{
     background-color: hsl(228deg 70% 28% / 10%);
 }
-.scListContacts_contacts{
+.secao_listaContatos_contatos{
     list-style-type: none;
     list-style: none;
     width: 100%;
     max-width: 450px;
 }
-.scListContacts_contacts li{
+.secao_listaContatos_contatos li{
     background-color: white;
     padding: 20px 30px;
     border-radius: 10px;
     margin-bottom: 30px;
 }
-.scListContacts_contacts li p{
+.secao_listaContatos_contatos li p{
     margin: 5px 0;
 }
-.scListContacts_contacts li h2{
+.secao_listaContatos_contatos li h2{
     font-size: 18px;
     font-weight: 600;
 }
-.scListContacts_contacts li button{
+.secao_listaContatos_contatos li button{
     float: right;
     background-image: url(../img/trash.svg);
     width: 30px;
@@ -98,4 +99,4 @@ main section{
     cursor: pointer;
 
 }
-.scListContacts_contacts li span{}
+.secao_listaContatos_contatos li span{}
