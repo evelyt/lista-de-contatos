@@ -4,8 +4,6 @@
 Lista de contatos
 </h1>
 
-# <h4>:link:<a href='https://lista-de-contatos-ev.vercel.app/'> Acessar a demonstração (Vercel)</a></h4>
-
 <details>
     <summary>Sumário</summary>
     <ol>
